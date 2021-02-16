@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+//Pratikum Container Property Child
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
