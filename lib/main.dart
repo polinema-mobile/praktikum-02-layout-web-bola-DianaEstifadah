@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-//Pratikum Column Widget
+//Pratikum Row Widget
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Contoh Column Widget")),
-        body: Column(
+        appBar: AppBar(title: Text("Contoh Row Widget")),
+        body: Row(
           children: [
             Container(
               color: Colors.purpleAccent,
